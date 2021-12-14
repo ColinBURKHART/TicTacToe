@@ -11,10 +11,7 @@ namespace TicTacToe
         public void start_playing()
         {
         }
-
-
-
-        // -------------------------------------------------TicTacToe--------------------------------------------------
+        
         public void PlayTicTacToe()
         {
             TicTacToe game = new TicTacToe(3, 3);
@@ -79,9 +76,7 @@ namespace TicTacToe
                 Console.WriteLine("draw");
             }
         }
-
-
-        // ------------------------------------------------Connect4--------------------------------------------
+        
         public void PlayConnect4()
         {
             Connect4 game = new Connect4(4, 7);
